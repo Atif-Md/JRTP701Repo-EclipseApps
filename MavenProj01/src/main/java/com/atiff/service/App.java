@@ -9,6 +9,7 @@ public class App {
 	}
 	
 	public int mul(int x, int y) {
+		System.out.println("mul()");
 		return x * y;
 	}
 	
