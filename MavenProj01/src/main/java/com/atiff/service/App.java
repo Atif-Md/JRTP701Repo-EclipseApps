@@ -12,6 +12,10 @@ public class App {
 		return x * y;
 	}
 	
+	public int sub(int x, int y) {
+		return x - y;
+	}
+	
     public static void main(String[] args) {
     	App app = new App();
     	System.out.println("Sum is :: "+app.sum(10, 20));
